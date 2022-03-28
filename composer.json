@@ -1,0 +1,22 @@
+{
+    "name": "DanilGS/oop",
+    "description": "Description",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DaniGS",
+            "email": "mixa123mixa123mixa123@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
